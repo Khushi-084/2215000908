@@ -1,0 +1,25 @@
+<% layout('layout/boilerplate') -%>
+<% for(product of wishlistData){ %>
+    <div class="card mb-2" style="max-width: 940px;">
+        <div class="row">
+          <div class="col-md-4">
+            <img
+              src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQm5oY8Icrs5Nt0SQ7YMPmaSeBuinp_hZzMfx_YulU9h__YpjsGlj7UKrgV2Yqanm3WNeCXj4JaFVvMOFsguA_TZq0LE3u-g1OwuaaE9d3QT1qpxODPsGyhTQ"
+              alt="Trendy backpack suitable for daily purpose"
+              class="img-fluid rounded-start"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                backpack for daily purpose. suitable for college.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+<% } %>
